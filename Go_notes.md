@@ -66,8 +66,8 @@ var d bool = true
 - 使用 `:=` 自动推导变量类型。
 
 ```go
-x := 10       // int
-pi := 3.14159 // float64
+x := 10       // // 等价于 var x int = 10
+name := "Alice"  // 等价于 var name string = "Alice"
 ```
 
 ---
